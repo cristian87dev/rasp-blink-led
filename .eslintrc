@@ -1,0 +1,16 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8 // or 2017
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  }
+}
